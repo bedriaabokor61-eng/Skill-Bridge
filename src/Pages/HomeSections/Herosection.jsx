@@ -4,7 +4,7 @@ const Herosection = () => {
       <div className="container my-3">
         <div className="row">
           <div className="col-md-6">
-            <h1 className="display-4 fw-bold">
+            <h1 className="display-4 ">
               Shiping your <br /> Future with the best <br /> recruiment
             </h1>
             <p className="f-5 text-muted">
@@ -35,7 +35,14 @@ const Herosection = () => {
               </h6>
             </div>
           </div>
-          <div className="col-md-6"></div>
+          <div className="col-md-6">
+            <img
+              src="/images/team.jpg"
+              alt="Team"
+              className="w-100"
+              style={{ height: "400px", objectFit: "cover" }}
+            />
+          </div>
         </div>
       </div>
     </div>
