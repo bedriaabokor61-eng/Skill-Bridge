@@ -1,11 +1,13 @@
-import Jobsection from "../HomeSections/jobsection";
+import HeroSection from "./HomeSections/HeroSection";
+import JobSection from "./HomeSections/JobSection";
 
 const Home = () => {
     return ( 
         <div>
-            <Jobsection />
+            <HeroSection />
+            <JobSection />
         </div>
-     );
+     ); 
 }
  
 export default Home;
