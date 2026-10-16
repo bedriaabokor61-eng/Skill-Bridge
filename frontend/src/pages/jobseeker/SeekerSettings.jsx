@@ -1,3 +1,7 @@
+import { FaUserCircle } from "react-icons/fa";
+import { CiCamera } from "react-icons/ci";
+
+
 const JobSeekerSettings = () => {
     return (
         <div className="p-3">
@@ -22,7 +26,7 @@ const JobSeekerSettings = () => {
 
                     <div>
                         <label className="btn btn-outline-primary mb-2">
-                            <FaCamera className="me-2" />
+                            <CiCamera className="me-2" />
                             Upload Picture
                             <input
                                 type="file"

@@ -1,3 +1,8 @@
+import { IoMdSchool } from "react-icons/io";
+import { IoMdCode } from "react-icons/io";
+
+
+
 const SkillsPage = () => {
     return (
         <div className="p-3">
@@ -10,7 +15,7 @@ const SkillsPage = () => {
 
             <div className="border rounded-3 p-3 mb-4">
                 <h5 className="fw-semibold mb-3">
-                    <MdSchool size={22} className="me-2" />
+                    <IoMdSchool size={22} className="me-2" />
                     Add New Skill
                 </h5>
 
@@ -36,7 +41,7 @@ const SkillsPage = () => {
 
             <div className="border rounded-3 p-3 mb-4">
                 <h5 className="fw-semibold mb-3">
-                    <MdCode size={22} className="me-2" />
+                    <IoMdCode size={22} className="me-2" />
                     Add New Project
                 </h5>
 
