@@ -9,7 +9,7 @@ import { FaCog } from "react-icons/fa";
 
 
 
-const AdminLayout = () => {
+const AdminLayout = () => {  
 
     const adminLinks = [
         {
