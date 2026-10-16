@@ -1,241 +1,157 @@
 
+import {
+    FaFacebookF,
+    FaTwitter,
+    FaLinkedinIn,
+    FaInstagram,
+} from "react-icons/fa";
+
 const Footer = () => {
     return (
         <footer className="bg-dark text-light mt-5">
 
+            {/* Main Footer */}
             <div className="container py-5">
                 <div className="row g-4">
 
                     {/* Brand */}
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-md-4">
                         <h4 className="fw-bold mb-3">
                             skill<span className="text-primary">Bridge</span>
                         </h4>
 
-                        <p className="text-secondary pe-lg-5">
-                            Connecting talented people with the right
-                            opportunities and helping businesses build
-                            exceptional teams.
+                        <p className="text-secondary">
+                            You need a job, we have them.
+                            You need employees, we have the best pool.
                         </p>
 
-                        {/* Social Media */}
-                        <div className="d-flex gap-3 mt-4">
-
-                            <a
-                                href="#"
-                                className="text-light fs-5"
-                                aria-label="LinkedIn"
-                            >
-                                <i className="bi bi-linkedin"></i>
+                        <div className="d-flex gap-2 mt-4">
+                            <a href="#" className="btn btn-outline-light rounded-circle">
+                                <FaFacebookF />
                             </a>
 
-                            <a
-                                href="#"
-                                className="text-light fs-5"
-                                aria-label="Twitter"
-                            >
-                                <i className="bi bi-twitter-x"></i>
+                            <a href="#" className="btn btn-outline-light rounded-circle">
+                                <FaTwitter />
                             </a>
 
-                            <a
-                                href="#"
-                                className="text-light fs-5"
-                                aria-label="Facebook"
-                            >
-                                <i className="bi bi-facebook"></i>
+                            <a href="#" className="btn btn-outline-light rounded-circle">
+                                <FaLinkedinIn />
                             </a>
 
-                            <a
-                                href="#"
-                                className="text-light fs-5"
-                                aria-label="Instagram"
-                            >
-                                <i className="bi bi-instagram"></i>
+                            <a href="#" className="btn btn-outline-light rounded-circle">
+                                <FaInstagram />
                             </a>
-
                         </div>
                     </div>
 
-
                     {/* Product */}
-                    <div className="col-6 col-lg-2 col-md-3">
-                        <h6 className="fw-bold mb-3">Product</h6>
+                    <div className="col-6 col-md-2">
+                        <h6 className="fw-bold mb-3">PRODUCT</h6>
 
                         <ul className="list-unstyled">
-
                             <li className="mb-2">
                                 <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-search me-2"></i>
                                     Browse Jobs
                                 </a>
                             </li>
 
                             <li className="mb-2">
                                 <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-rocket-takeoff me-2"></i>
-                                    Startup Jobs
-                                </a>
-                            </li>
-
-                            <li className="mb-2">
-                                <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-globe2 me-2"></i>
                                     Remote Jobs
                                 </a>
                             </li>
 
-                            <li>
+                            <li className="mb-2">
                                 <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-plus-circle me-2"></i>
-                                    Post a Job
+                                    Startup Jobs
                                 </a>
                             </li>
-
                         </ul>
                     </div>
 
-
                     {/* Resources */}
-                    <div className="col-6 col-lg-2 col-md-3">
-                        <h6 className="fw-bold mb-3">Resources</h6>
+                    <div className="col-6 col-md-2">
+                        <h6 className="fw-bold mb-3">RESOURCES</h6>
 
                         <ul className="list-unstyled">
-
                             <li className="mb-2">
                                 <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-question-circle me-2"></i>
                                     FAQ
                                 </a>
                             </li>
 
                             <li className="mb-2">
                                 <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-headset me-2"></i>
-                                    Support
-                                </a>
-                            </li>
-
-                            <li className="mb-2">
-                                <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-shield-check me-2"></i>
                                     Privacy Policy
                                 </a>
                             </li>
 
-                            <li>
+                            <li className="mb-2">
                                 <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-file-earmark-text me-2"></i>
-                                    Terms & Conditions
+                                    Terms of Service
                                 </a>
                             </li>
-
                         </ul>
                     </div>
 
-
                     {/* Company */}
-                    <div className="col-6 col-lg-2 col-md-3">
-                        <h6 className="fw-bold mb-3">Company</h6>
+                    <div className="col-6 col-md-2">
+                        <h6 className="fw-bold mb-3">COMPANY</h6>
 
                         <ul className="list-unstyled">
-
                             <li className="mb-2">
                                 <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-info-circle me-2"></i>
                                     About Us
                                 </a>
                             </li>
 
                             <li className="mb-2">
                                 <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-envelope me-2"></i>
                                     Contact Us
                                 </a>
                             </li>
 
-                            <li>
+                            <li className="mb-2">
                                 <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-briefcase me-2"></i>
                                     Careers
                                 </a>
                             </li>
-
                         </ul>
                     </div>
 
+                    {/* CTA */}
+                    <div className="col-6 col-md-2">
+                        <h6 className="fw-bold mb-3">GET STARTED</h6>
 
-                    {/* Employers */}
-                    <div className="col-6 col-lg-2 col-md-3">
-                        <h6 className="fw-bold mb-3">For Employers</h6>
+                        <p className="text-secondary small">
+                            Ready to take the next step in your career?
+                        </p>
 
-                        <ul className="list-unstyled">
-
-                            <li className="mb-2">
-                                <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-megaphone me-2"></i>
-                                    Post a Job
-                                </a>
-                            </li>
-
-                            <li className="mb-2">
-                                <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-people me-2"></i>
-                                    Find Talent
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" className="text-secondary text-decoration-none">
-                                    <i className="bi bi-speedometer2 me-2"></i>
-                                    Employer Dashboard
-                                </a>
-                            </li>
-
-                        </ul>
+                        <button className="btn btn-primary btn-sm">
+                            Find a Job
+                        </button>
                     </div>
 
                 </div>
-
-
-                {/* Divider */}
-                <hr className="border-secondary my-4" />
-
-
-                {/* Bottom Footer */}
-                <div className="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
-
-                    <p className="text-secondary mb-0 small">
-                        © {new Date().getFullYear()} skillBridge. All rights reserved.
-                    </p>
-
-                    <div className="d-flex gap-3">
-
-                        <a
-                            href="#"
-                            className="text-secondary text-decoration-none small"
-                        >
-                            Privacy
-                        </a>
-
-                        <a
-                            href="#"
-                            className="text-secondary text-decoration-none small"
-                        >
-                            Terms
-                        </a>
-
-                        <a
-                            href="#"
-                            className="text-secondary text-decoration-none small"
-                        >
-                            Cookies
-                        </a>
-
-                    </div>
-
-                </div>
-
             </div>
+
+            {/* Bottom Bar */}
+            <div className="border-top border-secondary">
+                <div className="container py-3">
+                    <div className="d-flex flex-column flex-md-row justify-content-between align-items-center">
+
+                        <p className="mb-2 mb-md-0 text-secondary small">
+                            © {new Date().getFullYear()} skillBridge. All rights reserved.
+                        </p>
+
+                        <p className="mb-0 text-secondary small">
+                            Connecting talent with opportunity.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
         </footer>
     );
 };

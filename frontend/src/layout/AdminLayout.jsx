@@ -1,15 +1,16 @@
-import DashboardNavBar from "../components/DashboardNavBar";
+import DashboardNav from "../components/DashboardNavBar";
 import SideBar from "../components/SideBar";
 import { Outlet } from "react-router-dom";
 import { AiOutlineDashboard } from "react-icons/ai";
 import { GrUserManager } from "react-icons/gr";
 import { FaUsers } from "react-icons/fa6";
-import { FaCog } from "react-icons/fa";
+import { FaBriefcase } from "react-icons/fa";
+import { IoSettings } from "react-icons/io5";
 
 
 
 
-const AdminLayout = () => {  
+const Adminlayout = () => {
 
     const adminLinks = [
         {
@@ -23,29 +24,29 @@ const AdminLayout = () => {
             icon: <GrUserManager />
         },
         {
-            name: "Job Seekers",
-            path: "/admin/job-seekers",
+            name: "Applicants",
+            path: "/admin/job-seeker",
             icon: <FaUsers />
         },
         {
             name: "Jobs",
             path: "/admin/jobs",
-            icon: <FaUsers />
+            icon: <FaBriefcase />
         },
         {
             name: "Settings",
             path: "/admin/settings",
-            icon: <FaCog />
-        }
+            icon: <IoSettings />
+        },
     ];
 
     return (
-        <div>
+        <>
             <div className="d-flex m-3">
                 <div
-                    className="card border-0 shadow-sm p-3 text-light"
+                    className="card p-3 border-0 shadow-sm text-light"
                     style={{
-                        backgroundColor: "#3368A0",
+                        backgroundColor: "#086288",
                         width: "300px",
                         minHeight: "90vh"
                     }}
@@ -54,21 +55,20 @@ const AdminLayout = () => {
                 </div>
                 <div className="ms-3 flex-grow-1">
                     <div
-                        className="card p-3 border-0 shadow-sm text-white"
+                        className="card border-0 shadow-sm p-3 text-white"
                         style={{
-                            width: "100%",
-                            backgroundColor: "#66A3BF"
+                            backgroundColor: "#4D8DBA"
                         }}
                     >
-                        <DashboardNavBar />
+                        <DashboardNav />
                     </div>
                     <div>
                         <Outlet />
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 
-export default AdminLayout;
+export default Adminlayout;

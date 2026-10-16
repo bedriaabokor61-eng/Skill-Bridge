@@ -1,4 +1,3 @@
-
 const Applicants = () => {
     return (
         <div className="p-3">
@@ -37,6 +36,6 @@ const Applicants = () => {
             </div>
         </div>
     );
-};
+}
 
 export default Applicants;

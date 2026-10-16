@@ -1,13 +1,12 @@
-import HeroSection from "./HomeSections/HeroSection";
-import JobSection from "./HomeSections/JobSection";
-
+import HeroSection from "./HomeSection/HeroSection.jsx";
+import JobSection from "./HomeSection/JobSection.jsx";
 const Home = () => {
     return ( 
         <div>
             <HeroSection />
             <JobSection />
         </div>
-     ); 
+     );
 }
  
 export default Home;

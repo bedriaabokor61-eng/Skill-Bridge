@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { MdWork, MdPeople, MdAddCircleOutline } from "react-icons/md";
 
@@ -91,6 +90,6 @@ const EmployerDashboard = () => {
             </div>
         </div>
     );
-};
+}
 
 export default EmployerDashboard;

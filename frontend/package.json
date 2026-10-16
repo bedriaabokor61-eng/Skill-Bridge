@@ -1,11 +1,11 @@
 {
-  "name": "skillbridge",
+  "name": "skillbridgeonline",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "server": "json-server --watch data/database.json --port 4000",
+    "server": "json-server --watch data/database.json --port 4000 ",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

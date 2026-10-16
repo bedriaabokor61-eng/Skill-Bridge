@@ -1,4 +1,4 @@
-const HelpSection = () => {
+const JobSeekerHelp = () => {
     return (
         <div className="p-3">
             <h3 className="fw-bold mb-1">Help & Support</h3>
@@ -28,4 +28,4 @@ const HelpSection = () => {
     );
 }
 
-export default HelpSection;
+export default JobSeekerHelp;

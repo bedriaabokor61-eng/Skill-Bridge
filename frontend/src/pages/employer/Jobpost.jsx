@@ -90,6 +90,6 @@ const JobPost = () => {
             </form>
         </div>
     );
-};
+}
 
 export default JobPost;
