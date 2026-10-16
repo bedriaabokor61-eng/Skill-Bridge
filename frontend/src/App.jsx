@@ -20,14 +20,14 @@ import AdminJobs from "./pages/admin/AdminJobs.jsx"
 import EmployerLayout from "./layout/EmployerLayout.jsx"
 import EmployerDashboard from "./pages/employer/EmployerDashboard.jsx"
 import Applicants from "./pages/employer/Applicants.jsx"
-import JobPost from "./pages/employer/JobPost.jsx"
 import EmployerSettings from "./pages/employer/EmployerSettings.jsx"
-import JobSeekerLayout from "./layout/JobSeekerLayout.jsx"
-import JobSeekerDashboard from "./pages/jobseeker/JobSeekerDashboard.jsx"
 import AppliedJobs from "./pages/jobseeker/AppliedJobs.jsx"
 import JobSeekerSettings from "./pages/jobseeker/SeekerSettings.jsx"
 import SkillsPage from "./pages/jobseeker/SkillsPage.jsx"
 import HelpSection from "./pages/jobseeker/HelpSection.jsx"
+import JobPost from "./pages/employer/JobPost.jsx";
+import JobSeekerLayout from "./layout/JobSeekerLayout.jsx"
+import JobSeekerDashboard from "./pages/jobseeker/JobSeekerDashboard.jsx"
 
 function App() {
 
@@ -65,7 +65,7 @@ function App() {
         <Route path="/employer" element={ <EmployerLayout /> }>
           <Route index element={ <EmployerDashboard /> } />
           <Route path="applicants" element={ <Applicants />  } />
-          <Route path="create-job" element={ <JobPost /> } />
+          <Route path="create-job" element={<JobPost /> } />
           <Route path="settings" element={ <EmployerSettings />  } />
         </Route>
 
