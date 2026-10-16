@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const SideBar = ({ links, title }) => {
     return (
         <div>
-            <h4> {title} </h4>
+            <h4 className="text-light"> {title} </h4>
             <div className="d-flex flex-column gap-2">
                 {links.map((link) => (
                     <NavLink
@@ -16,7 +16,7 @@ const SideBar = ({ links, title }) => {
                         style={({ isActive }) => ({
                             color: "#fff",
                             backgroundColor: isActive
-                                ? "#425B9A"
+                                ? "#E5D3AF"
                                 : "transparent",
                             transition: "0.2s ease"
                         })}

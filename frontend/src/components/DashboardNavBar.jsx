@@ -3,8 +3,8 @@ const DashboardNavBar = () => {
     return ( 
         <div>
             <nav className="d-flex justify-content-between">
-                <div>
-                    <h5>
+                <div className="text-white">
+                    <h5 >
                        Welcome Admin  {/* we will replace this with username */}
                     </h5>
                     <p>
@@ -13,9 +13,9 @@ const DashboardNavBar = () => {
                 </div>
                 <div>
                     <button 
-                    className="btn"
+                    className="btn text-white"
                     style={{
-                        backgroundColor: "#DF301C"
+                        backgroundColor: "#790D16"
                     }}
                     >
                         Logout
